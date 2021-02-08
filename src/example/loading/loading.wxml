@@ -1,4 +1,4 @@
-<view class="page">
+<view class="page" data-weui-theme="{{theme}}">
     <view class="page__hd">
         <view class="page__title">Loading</view>
         <view class="page__desc">加载中</view>
@@ -6,6 +6,12 @@
     <view class="page__bd">
       <view class="weui-loading__wrp">
           <view class="weui-loading"></view>
+          <view class="weui-primary-loading">
+            <view class="weui-primary-loading__dot"></view>
+          </view>
+          <view class="weui-primary-loading weui-primary-loading_brand">
+            <view class="weui-primary-loading__dot"></view>
+          </view>
       </view>
       <view class="weui-loading__wrp">
           <view class="loading wx_dot_loading"></view>
